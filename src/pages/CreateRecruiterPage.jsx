@@ -29,7 +29,7 @@ const CreateRecruiterPage = () => {
       const token = localStorage.getItem("token"); // or get from auth context
 
       const response = await axios.post(
-        "http://localhost:5000/api/admin/create-recruiter", 
+        "https://jobportal-backend-13-qev7.onrender.com/api/admin/create-recruiter", 
         formData,
         {
           headers: {
