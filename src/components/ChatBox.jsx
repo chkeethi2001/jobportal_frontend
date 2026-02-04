@@ -11,7 +11,7 @@ const ChatBox = () => {
     setMessages([...messages, { sender: "user", text: input }]);
     SetIntput("");
     try{
-      const response = await axios.post(`http://localhost:5000/api/chat`,{
+      const response = await axios.post(`https://jobportal-backend-13-qev7.onrender.com/api/chat`,{
         messages:input,
         senderId:'uers',
         applicationId:'12345'
