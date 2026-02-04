@@ -1,7 +1,7 @@
 import API from "./axiosAPI";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api"; // adjust to your backend URL
+const API_URL = "https://jobportal-backend-13-qev7.onrender.com/api"; // adjust to your backend URL
 
 // Upload resume
 export const uploadResumeAPI = async (formData) => {
