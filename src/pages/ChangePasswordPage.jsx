@@ -18,7 +18,7 @@ const ChangePasswordPage = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/superadmin/change-password",
+        "https://jobportal-backend-13-qev7.onrender.com/api/superadmin/change-password",
         { oldPassword, newPassword },
         { headers: { Authorization: `Bearer ${localStorage.getItem("token")}` } }
       );
