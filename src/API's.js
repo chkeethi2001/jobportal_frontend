@@ -1,2 +1,2 @@
-export const registerAPI = "http://localhost:5000/api/auth/register";
-export const loginAPI = "http://localhost:5000/api/auth/login";
+export const registerAPI = "https://jobportal-backend-13-qev7.onrender.com/api/auth/register";
+export const loginAPI = "https://jobportal-backend-13-qev7.onrender.com/api/auth/login";
