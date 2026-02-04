@@ -58,7 +58,7 @@ export default function ApplyPage() {
       });
 
       const response = await axios.post(
-        "http://localhost:5000/api/applications/apply",
+        "https://jobportal-backend-13-qev7.onrender.com/api/applications/apply",
         data,
         {
           headers: {
