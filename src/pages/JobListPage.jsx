@@ -18,7 +18,7 @@ export default function JobListPage() {
   useEffect(() => {
     async function fetch(){
       try{
-         const response = await axios.get("http://localhost:5000/api/jobs", {
+         const response = await axios.get("https://jobportal-backend-13-qev7.onrender.com/api/jobs", {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
           },
