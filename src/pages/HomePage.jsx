@@ -30,7 +30,7 @@ const HomePage = () => {
     async function fetchJobs() {
       try {
         setLoading(true);
-        const response = await axios.get("http://localhost:5000/api/jobs", {
+        const response = await axios.get("https://jobportal-backend-13-qev7.onrender.com/api/jobs", {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
         if (response.status === 200 && Array.isArray(response.data.data)) {
